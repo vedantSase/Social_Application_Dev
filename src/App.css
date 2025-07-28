@@ -1,0 +1,55 @@
+  .app-container {
+    display: flex;
+  }
+
+  .app-content {
+    width: 100%;
+  }
+
+  .sideBar {
+    min-height: 100vh;
+  }
+
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .post-card {
+    margin: 20px 50px;
+    }
+
+    .allPosts {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .card-text {
+      margin-bottom: 0.3rem;
+    }
+
+    .tag {
+      margin: 0 3px 10px 3px;
+    }
+
+    .reactions {
+      margin: 5px 0px;
+    }
+
+    .create-post {
+      width: 80%;
+      margin: 10% 0 0 10%;
+    }
+
+    .create-post input,
+    .create-post textarea {
+      background-color: rgba(250, 235, 215, 0.334);
+    }
+
+    .noPosts {
+      align-items: center;
+      margin-top: 10%;
+    }
